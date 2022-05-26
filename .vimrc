@@ -11,6 +11,8 @@ set noremap <space> za
 set 
 set foldmethod=indent
 
+map <F5> <Esc>^i# <Esc>j^
+map <F6> <Esc>^xxj^
 
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
