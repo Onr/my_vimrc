@@ -13,7 +13,7 @@ set foldmethod=indent
 
 map <F5> ^xxj^
 map <F6> ^i# <Esc>j^
-map <F9> oprint(f'{ = }')<Esc>hhhhhi
+map <F9> yiwoprint(f'{<Esc>p$a = }')<Esc>hhhhhb
 
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
