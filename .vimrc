@@ -10,6 +10,7 @@ set foldnestmax=2
 set noremap <space> za
 set 
 set foldmethod=indent
+set iskeyword+=_ 
 
 map <F5> ^xxj^
 map <F6> ^i# <Esc>j^
