@@ -8,7 +8,7 @@ set mouse
 set foldmethod=indent
 set foldnestmax=2
 set noremap <space> za
-set 
+set spell
 set foldmethod=indent
 set iskeyword+=_ 
 
