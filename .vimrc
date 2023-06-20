@@ -50,5 +50,3 @@ autocmd VimEnter * wincmd p
 
 hi Folded ctermbg=256
 
-bo term
-resize 13
