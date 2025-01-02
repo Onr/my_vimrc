@@ -33,6 +33,8 @@ if exists('&t_SI')
 endif
 
 " Plugin Manager (vim-plug)
+" to install: "curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+" Then run: ":PlugInstall"
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'tpope/vim-fugitive'
